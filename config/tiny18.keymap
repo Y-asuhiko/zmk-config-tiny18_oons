@@ -91,7 +91,7 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &kp EQUAL  &kp G  &kp L  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &mt RIGHT_ALT B  &trans  &trans  &trans  &trans
+&trans  &trans  &kp EQUAL  &kp G  &kp L  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &mt RIGHT_ALT B  &trans  &trans  &lt 3 COMMA  &trans
             >;
         };
 
