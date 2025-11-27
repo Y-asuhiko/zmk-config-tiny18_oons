@@ -118,7 +118,7 @@
 
         default_layer {
             bindings = <
-&mt LEFT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp H  &kp N  &kp S  &mt RIGHT_ALT H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &kp M
+&mt LEFT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp H  &kp N  &kp S  &mt RIGHT_ALT H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
             >;
         };
 
@@ -130,7 +130,7 @@
 
         layer_2 {
             bindings = <
-&trans  &kp LEFT_SHIFT  &kp RIGHT_GUI  &trans  &kp NON_US_BSLH  &kp UP_ARROW  &kp ESCAPE  &trans  &kp DEL  &kp RIGHT_ARROW  &kp BACKSPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB  &kp LEFT  &kp TAB  &kp RG(ENTER)
+&kp PLUS  &kp MINUS  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans  &trans  &trans  &none
             >;
         };
 
