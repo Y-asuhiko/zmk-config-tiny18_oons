@@ -76,7 +76,7 @@
         };
 
         bt {
-            bindings = <&to 4>;
+            bindings = <&mo 4>;
             key-positions = <5 12>;
         };
     };
