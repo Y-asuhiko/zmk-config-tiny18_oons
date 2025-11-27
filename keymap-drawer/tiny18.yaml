@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  '5':
+  '4':
   - MUTE
   - VOLUME DOWN
   - VOLUME UP
@@ -123,4 +123,4 @@ combos:
 - p: [0, 7]
   k: DELETE
 - p: [5, 12]
-  k: '5'
+  k: '4'
