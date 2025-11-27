@@ -140,3 +140,4 @@ combos:
   l: [default]
 - p: [0, 6]
   k: ESC
+  l: [default, '1', '2']
