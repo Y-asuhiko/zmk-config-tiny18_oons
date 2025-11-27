@@ -9,107 +9,64 @@
     combos {
         compatible = "zmk,combos";
 
-        q {
-            bindings = <&kp Q>;
-            key-positions = <1 0>;
-            layers = <0>;
+        kakko {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <0 1>;
         };
 
-        f {
-            bindings = <&kp F>;
-            key-positions = <9 7>;
-            layers = <0>;
-        };
-
-        y {
-            bindings = <&kp Y>;
-            key-positions = <10 9>;
-            layers = <0>;
-        };
-
-        p {
-            bindings = <&kp P>;
-            key-positions = <4 5>;
-            layers = <0>;
-        };
-
-        b {
-            bindings = <&kp B>;
-            key-positions = <8 9>;
-            layers = <0>;
-        };
-
-        j {
-            bindings = <&kp J>;
-            key-positions = <10 11>;
-            layers = <0>;
-        };
-
-        lang2 {
-            bindings = <&mt LEFT_GUI LANGUAGE_2>;
-            key-positions = <7 8>;
-            layers = <0 1 2 3 4>;
-        };
-
-        lang1 {
-            bindings = <&mt RIGHT_GUI LANG1>;
-            key-positions = <11 12>;
-            layers = <0 1 2 3 4>;
-        };
-
-        lsft {
-            timeout-ms = <35>;
-            bindings = <&kp LSHFT>;
-            key-positions = <6 7>;
-            layers = <0>;
-        };
-
-        lctr {
-            bindings = <&kp LCTRL>;
-            key-positions = <14 15>;
-            layers = <0 1 2 3 4>;
-        };
-
-        ralt {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <16 17>;
-            layers = <0 1 2 3 4>;
-        };
-
-        layer5 {
-            bindings = <&mo 5>;
-            key-positions = <5 13>;
-            layers = <0>;
-        };
-
-        lalt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <1 2 0>;
-            layers = <0 1 2 3 4>;
-        };
-
-        rctr {
-            bindings = <&kp RCTRL>;
-            key-positions = <3 4 5>;
-            layers = <0 1 2 3 4>;
+        kakkotoji {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <0 2>;
         };
 
         x {
             bindings = <&kp X>;
-            key-positions = <14 8>;
-            layers = <0>;
+            key-positions = <1 2>;
+        };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <6 7>;
         };
 
         c {
             bindings = <&kp C>;
-            key-positions = <15 9>;
-            layers = <0>;
+            key-positions = <7 8>;
         };
 
         v {
             bindings = <&kp V>;
-            key-positions = <16 10>;
-            layers = <0>;
+            key-positions = <8 9>;
+        };
+
+        w {
+            bindings = <&kp W>;
+            key-positions = <3 4>;
+        };
+
+        f {
+            bindings = <&kp F>;
+            key-positions = <4 5>;
+        };
+
+        m {
+            bindings = <&kp M>;
+            key-positions = <11 10>;
+        };
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <3 5>;
+        };
+
+        exq {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <13 12>;
+        };
+
+        ques {
+            bindings = <&kp QUESTION>;
+            key-positions = <10 12>;
         };
     };
 
@@ -124,13 +81,13 @@
 
         layer_1 {
             bindings = <
-&kp SINGLE_QUOTE  &kp BACKSLASH  &kp EQUAL  &kp SLASH  &kp GRAVE  &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp RIGHT_GUI  &trans  &kp RIGHT_SHIFT  &kp SEMICOLON  &kp MINUS  &kp ENTER  &kp BACKSPACE
+&trans  &trans  &kp EQUAL  &kp G  &kp L  &kp P  &trans  &trans  &trans  &trans  &kp D  &kp Z  &kp J  &mt RIGHT_ALT B  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&kp PLUS  &kp MINUS  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans  &trans  &trans  &none
+&kp PLUS  &kp MINUS  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans  &trans  &trans  &trans
             >;
         };
 
