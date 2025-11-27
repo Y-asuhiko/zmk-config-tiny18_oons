@@ -77,6 +77,7 @@
         y2 {
             bindings = <&kp Y>;
             key-positions = <9 10>;
+        layers = <1 2>;
         };
     };
 
