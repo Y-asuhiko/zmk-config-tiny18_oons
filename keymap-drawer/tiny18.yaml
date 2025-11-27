@@ -138,3 +138,5 @@ combos:
 - p: [5, 12]
   k: '4'
   l: [default]
+- p: [0, 6]
+  k: ESC
