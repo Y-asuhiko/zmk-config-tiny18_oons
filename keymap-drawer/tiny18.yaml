@@ -36,7 +36,7 @@ layers:
   - {t: B, h: RIGHT ALT}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: ',', h: '3'}
   - {t: ▽, type: trans}
   '2':
   - {t: +, h: LEFT SHIFT}
