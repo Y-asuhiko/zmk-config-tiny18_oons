@@ -82,14 +82,14 @@ layers:
   - VOLUME UP
   - OUT TOG
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,4 +123,4 @@ combos:
 - p: [0, 7]
   k: DELETE
 - p: [5, 12]
-  k: {t: '5', h: toggle}
+  k: '5'
