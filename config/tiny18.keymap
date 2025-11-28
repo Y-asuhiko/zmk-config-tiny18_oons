@@ -103,6 +103,7 @@
         alt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <5 13>;
+            layers = <0 1 2>;
         };
     };
 
