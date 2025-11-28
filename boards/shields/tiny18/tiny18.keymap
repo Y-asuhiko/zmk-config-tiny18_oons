@@ -97,6 +97,12 @@
             key-positions = <0 6>;
             layers = <0 1 2>;
         };
+        alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <5 13>;
+            layers = <0 1 2>;
+        };
+
     };
 
     keymap {
