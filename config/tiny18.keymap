@@ -99,6 +99,11 @@
             key-positions = <0 6>;
             layers = <0 1 2>;
         };
+
+        alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <5 13>;
+        };
     };
 
     keymap {
@@ -106,7 +111,7 @@
 
         default_layer {
             bindings = <
-&mt LEFT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp H  &kp N  &kp S  &mt RIGHT_ALT H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
+&mt LEFT_SHIFT TAB  &kp U  &kp MINUS  &kp K  &kp R  &kp Y  &kp E  &kp I  &kp A  &kp O  &kp H  &kp N  &kp S  &kp H  &mt LCTRL BACKSPACE  &lt 1 SPACE  &lt 3 ENTER  &lt 2 PERIOD
             >;
         };
 
