@@ -355,18 +355,22 @@ path.combo {
 <text x="480" y="30" class="combo tap">W</text>
 </g>
 <g class="combo combopos-1">
+<rect rx="6" ry="6" x="526" y="17" width="28" height="26" class="combo"/>
+<text x="540" y="30" class="combo tap">F</text>
+</g>
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="466" y="77" width="28" height="26" class="combo"/>
 <text x="480" y="90" class="combo tap">M</text>
 </g>
-<g class="combo combopos-2">
+<g class="combo combopos-3">
 <rect rx="6" ry="6" x="586" y="100" width="28" height="26" class="combo"/>
 <text x="600" y="112" class="combo tap">?</text>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="76" y="47" width="28" height="26" class="combo"/>
 <text x="90" y="60" class="combo tap">DELETE</text>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-5">
 <path d="M60,82 l20,-35" class="combo"/>
 <path d="M60,82 l-20,35" class="combo"/>
 <rect rx="6" ry="6" x="46" y="70" width="28" height="26" class="combo"/>

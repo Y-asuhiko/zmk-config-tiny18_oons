@@ -119,7 +119,7 @@ combos:
   l: [default, '1']
 - p: [4, 5]
   k: F
-  l: [default]
+  l: [default, '1']
 - p: [11, 10]
   k: M
   l: [default, '1']
