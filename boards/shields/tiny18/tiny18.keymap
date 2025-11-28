@@ -54,7 +54,7 @@
         f {
             bindings = <&kp F>;
             key-positions = <4 5>;
-        layers = <0>;
+        layers = <0 1>;
         };
 
         m {
