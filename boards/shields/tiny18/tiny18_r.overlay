@@ -1,14 +1,7 @@
 #include "tiny18.dtsi"
 #include <input/processors.dtsi>
 
-/ {
-    chosen {
-        zmk,kscan-transform = &default_transform;
-    };
-};
-
 &default_transform {
-    // 右手はカラムオフセットあり
     col-offset = <9>;
 };
 
