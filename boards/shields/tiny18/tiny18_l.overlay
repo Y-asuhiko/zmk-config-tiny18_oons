@@ -1,1 +1,17 @@
 #include "tiny18.dtsi"
+#include <input/processors.dtsi>
+
+/ {
+    chosen {
+        zmk,kscan-transform = &default_transform;
+    };
+};
+
+&default_transform {
+    // 左手はオフセット不要（左を0から開始）
+    col-offset = <0>;
+};
+
+&xiao_serial {
+    status = "disabled";
+};
