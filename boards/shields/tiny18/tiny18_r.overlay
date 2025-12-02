@@ -1,7 +1,26 @@
 #include "tiny18.dtsi"
 #include <input/processors.dtsi>
 
-&default_transform {
-    col-offset = <9>;};
+/ {
+    chosen {
+        zephyr,wakeup-source = &kscan0;
+    };
+};
 
-&xiao_serial { status = "disabled"; };
+&default_transform {
+    col-offset = <9>;
+};
+
+&kscan0 {
+    wakeup-source;
+};
+
+&xiao_serial {
+    status = "disabled";
+};
+
+/* 必要に応じて
+&uart0 { status = "disabled"; };
+&i2c0 { status = "disabled"; };
+&spi0 { status = "disabled"; };
+*/
