@@ -90,7 +90,7 @@
         bt {
             bindings = <&mo 4>;
             key-positions = <5 12>;
-        layers = <0>;
+        layers = <1>;
         };
         esc {
             bindings = <&kp ESC>;
