@@ -1,26 +1,14 @@
-#include "tiny18.dtsi"
-#include <input/processors.dtsi>
+# Battery reporting
+CONFIG_ZMK_BATTERY_REPORTING=y
+CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY=y
+CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y
+CONFIG_BT_BAS=y
 
-/ {
-    chosen {
-        zephyr,wakeup-source = &kscan0;
-    };
-};
+# Power management
+CONFIG_ZMK_SLEEP=y
+CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=15000
+CONFIG_ZMK_IDLE_SLEEP_TIMEOUT_DEFAULT=15000
+CONFIG_ZMK_BLE_PM=y
 
-&default_transform {
-    col-offset = <9>;
-};
-
-&kscan0 {
-    wakeup-source;
-};
-
-&xiao_serial {
-    status = "disabled";
-};
-
-/* 必要に応じて
-&uart0 { status = "disabled"; };
-&i2c0 { status = "disabled"; };
-&spi0 { status = "disabled"; };
-*/
+# Optional: reduce scanning power
+CONFIG_ZMK_KSCAN_DEBOUNCE_SCAN_MODE=work
