@@ -148,10 +148,10 @@ combos:
   k: RIGHT ALT
   l: [default, '1', '2']
 - p: [14, 15]
-  k: lang1
+  k: LANG1
   l: [default, '1']
 - p: [16, 17]
-  k: lang12
+  k: LANG2
   l: [default, '1']
 - p: [14, 17]
   k: F10
