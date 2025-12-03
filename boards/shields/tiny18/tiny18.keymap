@@ -45,20 +45,20 @@
         layers = <0>;
         };
 
+        m {
+            bindings = <&kp M>;
+            key-positions = <3 4>;
+        layers = <0 1>;
+        };
+
         w {
             bindings = <&kp W>;
-            key-positions = <3 4>;
+            key-positions = <4 5>;
         layers = <0 1>;
         };
 
         f {
             bindings = <&kp F>;
-            key-positions = <4 5>;
-        layers = <0 1>;
-        };
-
-        m {
-            bindings = <&kp M>;
             key-positions = <11 10>;
         layers = <0 1>;
         };
