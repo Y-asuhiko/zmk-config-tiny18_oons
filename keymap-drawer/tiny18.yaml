@@ -117,10 +117,13 @@ combos:
 - p: [3, 4]
   k: M
   l: [default, '1']
-- p: [4, 5]
+- p: [10, 11]
+  k: M
+  l: [default, '1']
+- p: [4, 10]
   k: W
   l: [default, '1']
-- p: [11, 10]
+- p: [4, 5]
   k: F
   l: [default, '1']
 - p: [3, 5]
@@ -137,10 +140,19 @@ combos:
   l: [default, '1', '2']
 - p: [5, 12]
   k: '4'
-  l: ['1']
+  l: [default]
 - p: [0, 6]
   k: ESC
   l: [default, '1', '2']
 - p: [5, 13]
   k: RIGHT ALT
   l: [default, '1', '2']
+- p: [14, 15]
+  k: lang1
+  l: [default, '1']
+- p: [16, 17]
+  k: lang12
+  l: [default, '1']
+- p: [14, 17]
+  k: F10
+  l: [default, '1']
